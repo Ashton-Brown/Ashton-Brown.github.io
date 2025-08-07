@@ -51,7 +51,7 @@ nav ul li a {
 .logo {
   height: 50px; /* Increased slightly for desktop to prevent cutoff */
   width: auto; /* Maintains aspect ratio */
-  max-width: 300px; /* Allows more width for the text */
+  max-width: 330px; /* Allows more width for the text */
   display: block; /* Ensures proper rendering */
   object-fit: contain; /* Ensures the entire SVG content is visible */
 }
