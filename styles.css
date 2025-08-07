@@ -49,8 +49,11 @@ nav ul li a {
 }
 
 .logo {
-  height: 50px; /* Adjust as needed */
+  height: 45px; /* Keep it smaller for desktop */
   width: auto; /* Maintains aspect ratio */
+  max-width: 280px; /* Prevents logo from being too wide on small screens */
+  display: block; /* Ensures proper rendering */
+  object-fit: contain; /* Ensures the entire SVG content is visible */
 }
 
 /* Hero section */
@@ -109,6 +112,18 @@ footer {
 }
 
 /* Responsive adjustments */
+@media (max-width: 599px) {
+  .logo {
+    height: 40px; /* Smaller on mobile */
+    max-width: 220px; /* More constrained on mobile */
+    object-fit: contain; /* Ensure full content is visible */
+  }
+  
+  nav h1 {
+    margin-bottom: 0.5rem; /* Add some space below logo on mobile */
+  }
+}
+
 @media (min-width: 600px) {
   nav {
     flex-direction: row;
