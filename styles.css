@@ -49,9 +49,9 @@ nav ul li a {
 }
 
 .logo {
-  height: 45px; /* Keep it smaller for desktop */
+  height: 50px; /* Increased slightly for desktop to prevent cutoff */
   width: auto; /* Maintains aspect ratio */
-  max-width: 280px; /* Prevents logo from being too wide on small screens */
+  max-width: 300px; /* Allows more width for the text */
   display: block; /* Ensures proper rendering */
   object-fit: contain; /* Ensures the entire SVG content is visible */
 }
@@ -114,8 +114,8 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 599px) {
   .logo {
-    height: 40px; /* Smaller on mobile */
-    max-width: 220px; /* More constrained on mobile */
+    height: 45px; /* Reasonable size on mobile */
+    max-width: 260px; /* More width on mobile for the long text */
     object-fit: contain; /* Ensure full content is visible */
   }
   
