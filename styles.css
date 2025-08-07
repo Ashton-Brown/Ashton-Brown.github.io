@@ -48,6 +48,11 @@ nav ul li a {
   font-weight: bold;
 }
 
+.logo {
+  height: 50px; /* Adjust as needed */
+  width: auto; /* Maintains aspect ratio */
+}
+
 /* Hero section */
 .hero {
   text-align: center;
